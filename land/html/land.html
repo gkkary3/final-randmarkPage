@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>방방곡곡</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700"
+      rel="stylesheet"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    /> -->
+    <link rel="stylesheet" href="../../nav/nav.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../../gallery/style.css" />
+    <script src="../js/script.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/243327ab3a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav id="mainNavbar1" class="nav">
+      <a href="#" class="nav-title"
+        ><img class="logo" src="../../img/logo.png" alt=""
+      /></a>
+
+      <div class="navbarWrap">
+        <ul class="nav-nav">
+          <li>
+            <a href="#" class="nav-menu">코스</a>
+          </li>
+          <li>
+            <a href="#" class="nav-menu">랜드마크</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ul class="nav-in">
+          <li>
+            <a href="#" class="login-btn nav-hover">로그인</a>
+          </li>
+          <li>
+            <a href="#" class="signUp-btn nav-hover">회원가입</a>
+          </li>
+        </ul>
+        <!--         <a href="#" class="login-btn nav-hover">로그인</a>
+        <a href="#" class="signUp-btn nav-hover">회원가입</a> -->
+      </div>
+      <span class="cursor ham"><i class="fa-solid fa-bars"></i></span>
+    </nav>
+
+    <section id="slide1">
+      <div class="container">
+        <ul class="slider-container simple-list" id="slider">
+          <li class="slide">
+            <img class="slide-img" src="../../img/1.jpg" alt="first_img" />
+          </li>
+          <li class="slide">
+            <img class="slide-img" src="../../img/3.jpg" alt="first_img" />
+          </li>
+          <li class="slide">
+            <img class="slide-img" src="../../img/2.jpg" alt="first_img" />
+          </li>
+        </ul>
+        <p class="pager">
+          <!-- <span data-idx="0">1</span>
+                      <span data-idx="1">2</span>
+                      <span data-idx="2">3</span>
+                      <span data-idx="3">4</span>
+                      <span data-idx="4">5</span>
+                      <span data-idx="5">6</span> -->
+        </p>
+
+        <a href="#" id="prev"></a>
+        <a href="#" id="next"></a>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <div class="container">
+        <div class="toolbar">
+          <div class="search-wrapper">
+            <input type="search" placeholder="랜드마크 검색" />
+            <div class="counter">게시글 수:<span>12</span></div>
+          </div>
+          <ul class="view-options">
+            <li class="zoom">
+              <input type="range" min="180" max="380" value="280" />
+            </li>
+            <li class="show-grid active">
+              <button>
+                <img
+                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/grid-view.svg"
+                  alt="grid view"
+                />
+              </button>
+            </li>
+            <li class="show-list">
+              <button>
+                <img
+                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/list-view.svg"
+                  alt="list view"
+                />
+              </button>
+            </li>
+          </ul>
+        </div>
+        <ol class="image-list grid-view">
+          <li>
+            <figure>
+              <img
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/unsplash_nature1.jpg"
+                alt=""
+              />
+              <figcaption>
+                <p>DMZ 평화관광</p>
+                <p>분단의 상처에서 평화와 희망의 장소로 함꼐하는 여행</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/unsplash_nature2.jpg"
+                alt=""
+              />
+              <figcaption>
+                <p>전통한옥</p>
+                <p>
+                  한국 고유의 전통문화를 체험할 수 있는 한옥 숙박시설을
+                  소개합니다.
+                </p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/unsplash_nature3.jpg"
+                alt=""
+              />
+              <figcaption>
+                <p>두루누비</p>
+                <p>대한민국의 걷기 여행길, 자전거 여행길을 소개합니다.</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/unsplash_nature4.jpg"
+                alt=""
+              />
+              <figcaption>
+                <p>지역명사문화여행</p>
+                <p>남다른 체험 콘텐츠를 가진 15인의 대표 명사와 함꼐하세요!</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/unsplash_nature5.jpg"
+                alt=""
+              />
+              <figcaption>
+                <p>생태녹색관광</p>
+                <p>아름다운 자연과 즐거운 체험이 있는 생태여행</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/unsplash_nature6.jpg"
+                alt=""
+              />
+              <figcaption>
+                <p>문화관광축제</p>
+                <p>
+                  365일 축제 중!<br />
+                  함께 떠나는 축제 여행
+                </p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/unsplash_nature7.jpg"
+                alt=""
+              />
+              <figcaption>
+                <p>한국관광의별</p>
+                <p>한 해 동안 가장 빛난 별을 찾아 소개합니다.</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/unsplash_nature8.jpg"
+                alt=""
+              />
+              <figcaption>
+                <p>고캠핑</p>
+                <p>
+                  대한민국 곳곳의 등록 '캠핑장' 정보 모두 확인하고 안전하게
+                  즐기세요!
+                </p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/unsplash_nature9.jpg"
+                alt=""
+              />
+              <figcaption>
+                <p>대한민국 테마여행10선</p>
+                <p>당신의 여행에 10개의 테마를 선사합니다.</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/unsplash_nature10.jpg"
+                alt=""
+              />
+              <figcaption>
+                <p>산업관광</p>
+                <p>
+                  전공 산업부터 예술/문화/첨단 산업까지!<br />
+                  체험 산업관광지
+                </p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/unsplash_nature11.jpg"
+                alt=""
+              />
+              <figcaption>
+                <p>휴가문화개선</p>
+                <p>휴가가 있는 일상을 만들어가는 캠페인</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/unsplash_nature12.jpg"
+                alt=""
+              />
+              <figcaption>
+                <p>비대면 안심관광지</p>
+                <p>
+                  생활 속 거리두기가 가능해 안심하고 여행할 수 있는 힐링여행지!
+                </p>
+              </figcaption>
+            </figure>
+          </li>
+        </ol>
+      </div>
+    </section>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../../nav/nav.js"></script>
+    <script src="../../gallery/main.js"></script>
+  </body>
+</html>
