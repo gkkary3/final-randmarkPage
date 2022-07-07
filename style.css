@@ -306,7 +306,7 @@ ul,li,ol{
     background:#3d405bcc;
     background:rgb(238, 155, 0.7);
     background:#e9edc9;
-    background:#a2d2ff;
+    background:rgb(162, 210, 255,0.8);
     
     /* background:rgb(0, 187, 249,0.7); */
     transition: background 500ms;
