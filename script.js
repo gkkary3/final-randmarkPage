@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function(){
     
         var nextIdx =($currentIndex + 1) % $slideCount; // 나눈 나머지 
         goToSlide(nextIdx);
-       },3000);
+       },4000);
    }
    startAutoSlide();
 
